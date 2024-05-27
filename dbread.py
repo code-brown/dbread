@@ -2,8 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
-# 设置 WebDriver 路径
-driver_path = r'F:\ST\python\msedgedriver.exe'  # 确保这个路径指向您的 WebDriver
+
+driver_path = r'F:\ST\python\msedgedriver.exe'
 
 driver = webdriver.Edge()
 
